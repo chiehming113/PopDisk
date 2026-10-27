@@ -1,0 +1,23 @@
+name: 回報問題 Bug report
+description: PopDisk 沒有正常運作 / Something in PopDisk isn't working
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: 發生了什麼 What happened
+      description: 你做了什麼、預期會怎樣、實際上怎樣？可以附上截圖。 What did you do, what did you expect, and what happened instead? Screenshots help.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 怎麼重現 Steps to reproduce
+      description: 例如硬碟或 NAS 的種類、怎麼連接、按了哪些按鈕。 E.g. the kind of drive or NAS, how it's connected, and what you clicked.
+  - type: textarea
+    id: system
+    attributes:
+      label: 系統資訊 System info
+      description: 在 PopDisk 的「設定 → 關於」按「拷貝系統資訊」後貼在這裡。 In PopDisk, open Settings → About, click "Copy System Info", and paste it here.
+      render: text
+    validations:
+      required: true
