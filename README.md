@@ -2,7 +2,7 @@
 
 PopDisk 是一個放在 Mac 螢幕上方選單列的小工具，幫你**一鍵退出、連接外接硬碟和網路硬碟**，還能看到每顆硬碟的連線速度和目前傳輸的快慢。
 
-> 目前是測試版（0.1.0）。功能都已完成，但還在實際使用中測試，遇到問題歡迎[回報](https://github.com/chiehming113/PopDisk/issues/new/choose)。
+> **目前是測試版（0.1.0），還不是穩定版本。** 功能都已完成，但還在實際使用中測試，可能還有問題，遇到時歡迎[回報](https://github.com/chiehming113/PopDisk/issues/new/choose)。目前主要在 macOS 27 上測試，macOS 15、26 還沒有實際測過。
 
 <p>
   <img src="assets/screenshots/menu-light.png" width="340" alt="PopDisk 選單（淺色模式）">
