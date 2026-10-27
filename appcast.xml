@@ -3,5 +3,28 @@
   <channel>
     <title>PopDisk</title>
     <link>https://github.com/chiehming113/PopDisk</link>
+    <item>
+      <title>PopDisk 0.1.0</title>
+      <pubDate>Tue, 27 Oct 2026 13:29:31 GMT</pubDate>
+      <sparkle:version>1</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown"><![CDATA[第一個版本，目前是**測試版**：功能都已完成，但還在實際使用中測試，可能還有問題，遇到時歡迎[回報](https://github.com/chiehming113/PopDisk/issues/new/choose)。主要在 macOS 27 上測試，macOS 15、26 還沒有實際測過。
+
+### 新增
+- 選單列一鍵退出、裝載外接硬碟（包含插在 Mac 內建讀卡機的 SD 卡），顯示退出進度與容量
+- 硬碟退出不了時，列出是哪些 App 在使用，可以結束這些 App 後自動再退出，或強制退出
+- 網路硬碟（SMB、NFS、WebDAV）：列表、中斷連線、加入常用一鍵連線（密碼存在鑰匙圈）、登入時自動連線、斷線後自動重連
+- 顯示硬碟與網路的連線速度（SD 卡顯示卡的規格，例如 UHS-I 104 MB/s），速度被線材或 Hub 拖慢時提醒
+- 即時傳輸速度，選單列圖示會顯示硬碟狀態
+- 幫硬碟取暱稱、換圖示、調整順序；進階資訊面板；鍵盤操作
+- 快速動作：在 Finder 或「終端機」中開啟、在 Finder 中顯示、拷貝路徑
+- 登入時自動開啟、通知、空間不足警示、全域快捷鍵、睡眠前自動退出
+- 英文與繁體中文介面
+- App 內更新：每天自動檢查一次有沒有新版本，有新版時跳出視窗或在選單下方提醒，按「安裝更新」就會下載、安裝並重新打開。可以在「設定 → 一般」關掉自動檢查
+- 「設定 → 關於」：版本、檢查更新、使用條款、隱私說明、回報問題，以及「拷貝系統資訊」（回報問題時貼上）
+- 以 Developer ID 簽章並經 Apple 公證，只在 GitHub 發佈（不上 Mac App Store，原因見 README 常見問題）]]></description>
+      <enclosure url="https://github.com/chiehming113/PopDisk/releases/download/v0.1.0/PopDisk-0.1.0.zip" type="application/octet-stream" sparkle:edSignature="lVlMzloUtnRu7FStRN8+NvDc+aYIyVXDeaAeXgv/YfaoxVzKjiIdyEWth56PYGrweaYMHX09Us+cS1FvBAETBA==" length="3042160"/>
+    </item>
   </channel>
 </rss>
