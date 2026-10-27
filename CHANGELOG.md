@@ -5,7 +5,7 @@
 
 ## [未發佈]
 
-## [0.1.0] - 2026-10-27
+## [0.1.0](https://github.com/chiehming113/PopDisk/releases/tag/v0.1.0) - 2026-10-27
 
 第一個版本，目前是**測試版**：功能都已完成，但還在實際使用中測試，可能還有問題，遇到時歡迎[回報](https://github.com/chiehming113/PopDisk/issues/new/choose)。主要在 macOS 27 上測試，macOS 15、26 還沒有實際測過。
 
