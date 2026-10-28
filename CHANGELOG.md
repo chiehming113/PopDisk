@@ -3,6 +3,12 @@
 每個版本的新功能、改進與修正。最新的版本在最上面。
 格式參考 [Keep a Changelog](https://keepachangelog.com/zh-TW/1.1.0/)，版本號遵循 [語意化版本](https://semver.org/lang/zh-TW/)。
 
+## [0.1.1](https://github.com/chiehming113/PopDisk/releases/tag/v0.1.1) - 2026-10-28
+
+### 改進
+- PopDisk 改為開放原始碼（MIT 授權），原始碼放在 GitHub，每次發佈新版本時一起更新
+- 「設定 → 關於」新增「授權條款」，可以看到完整的授權全文（中文介面附繁體中文參考譯文）；「授權條款」與「開源軟體致謝」點整列就能展開；原本的「使用條款」連結改成「在 GitHub 上查看授權條款」
+
 ## [0.1.0](https://github.com/chiehming113/PopDisk/releases/tag/v0.1.0) - 2026-10-27
 
 第一個版本，目前是**測試版**：功能都已完成，但還在實際使用中測試，可能還有問題，遇到時歡迎[回報](https://github.com/chiehming113/PopDisk/issues/new/choose)。主要在 macOS 27 上測試，macOS 15、26 還沒有實際測過。

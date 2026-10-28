@@ -44,7 +44,7 @@ PopDisk 每天會自動檢查一次有沒有新版本。有新版時會跳出視
 - 想馬上檢查：「設定… → 關於」，按「檢查更新…」。
 - 不想自動檢查：「設定… → 一般」，關掉「自動檢查更新」。
 
-「設定… → 關於」也可以看目前的版本、使用條款與隱私說明，以及回報問題。
+「設定… → 關於」也可以看目前的版本、授權條款（完整全文）、隱私說明與開源軟體致謝，以及回報問題。
 
 <img src="assets/screenshots/about.png" width="420" alt="PopDisk 設定的「關於」頁">
 
@@ -127,10 +127,170 @@ PopDisk 不會收集或上傳你的任何資料。它只會連到 GitHub 檢查�
 
 ## 授權
 
-PopDisk 可以免費下載使用，但不是開放原始碼軟體。使用前請看[使用條款](LICENSE.zh-Hant.md)（[English](LICENSE)）。
+PopDisk 是開放原始碼軟體，採用 [MIT 授權](LICENSE)（[繁體中文參考譯文](LICENSE.zh-Hant.md)，以英文版為準）：可以免費使用、修改、再散佈，只要保留著作權與授權聲明。完整條款也可以在「設定… → 關於 → 授權條款」看到。
+
+原始碼就在這個頁面，每次發佈新版本時一起更新。想自己編譯、回報問題或提出建議，請看[參與 PopDisk](CONTRIBUTING.md)（目前不接受 Pull Request）。0.1.0 發佈時附帶的是舊的「使用條款」（免費使用、不開放原始碼），之後的版本改用 MIT 授權。
 
 © 2026 MingTW
 
 ## 使用的開源軟體
 
-- [Sparkle](https://sparkle-project.org)：App 內更新，MIT 授權。完整授權聲明在「設定… → 關於 → 開源軟體致謝」。
+PopDisk 只用了一套別人寫的開源軟體：[Sparkle](https://sparkle-project.org)，負責 App 內更新（檢查新版、下載、確認檔案沒被竄改、安裝後重新打開）。其他功能都只用 macOS 內建的功能。
+
+Sparkle 裡面又包含了幾段其他作者的程式，各有自己的授權：
+
+| 軟體 | 版本 | 在 PopDisk 裡做什麼 | 授權 |
+|---|---|---|---|
+| [Sparkle](https://github.com/sparkle-project/Sparkle) | 2.10.1 | App 內更新 | MIT |
+| bsdiff／bspatch（Sparkle 內含） | 4.3 | 差分更新（只下載新舊版的差異）；PopDisk 目前沒有使用差分更新，但這段程式包含在 Sparkle 裡 | BSD 2-Clause |
+| sais-lite（Sparkle 內含） | 2010/08/07 | bsdiff 用來比對差異的工具 | MIT |
+| Ed25519（Sparkle 內含，[orlp/ed25519](https://github.com/orlp/ed25519)） | — | 確認下載的更新檔是官方簽章、沒被竄改 | zlib |
+| SUSignatureVerifier（Sparkle 內含） | — | 檢查更新檔的簽章 | BSD 2-Clause |
+
+這些都沒有修改過，原樣包在 App 裡（`PopDisk.app/Contents/Frameworks/Sparkle.framework`，裡面有負責安裝更新的 Autoupdate、Updater.app 與背景服務）。另外，發佈新版本時會用到 Sparkle 附的簽章工具（`generate_keys`、`sign_update`），它們只在作者的電腦上使用，不會包進 App。
+
+App 裡的「設定… → 關於 → 開源軟體致謝」也看得到同樣的完整授權全文。
+
+<details>
+<summary>授權全文（Sparkle 與它內含的軟體）</summary>
+
+<!-- BEGIN THIRD-PARTY LICENSES：和 PopDisk/Acknowledgements.txt 的授權全文必須一字不差，scripts/preflight.sh 會檢查 -->
+```text
+Copyright (c) 2006-2013 Andy Matuschak.
+Copyright (c) 2009-2013 Elgato Systems GmbH.
+Copyright (c) 2011-2014 Kornel Lesiński.
+Copyright (c) 2015-2017 Mayur Pawashe.
+Copyright (c) 2014 C.W. Betts.
+Copyright (c) 2014 Petroules Corporation.
+Copyright (c) 2014 Big Nerd Ranch.
+All rights reserved.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+=================
+EXTERNAL LICENSES
+=================
+
+bspatch.c and bsdiff.c, from bsdiff 4.3 <http://www.daemonology.net/bsdiff/>:
+
+Copyright 2003-2005 Colin Percival
+All rights reserved
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted providing that the following conditions 
+are met:
+1. Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright
+   notice, this list of conditions and the following disclaimer in the
+   documentation and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY
+DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+
+--
+
+sais.c and sais.h, from sais-lite (2010/08/07) <https://sites.google.com/site/yuta256/sais>:
+
+The sais-lite copyright is as follows:
+
+Copyright (c) 2008-2010 Yuta Mori All Rights Reserved.
+
+Permission is hereby granted, free of charge, to any person
+obtaining a copy of this software and associated documentation
+files (the "Software"), to deal in the Software without
+restriction, including without limitation the rights to use,
+copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following
+conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.
+
+--
+
+Portable C implementation of Ed25519, from https://github.com/orlp/ed25519
+
+Copyright (c) 2015 Orson Peters <orsonpeters@gmail.com>
+
+This software is provided 'as-is', without any express or implied warranty. In no event will the
+authors be held liable for any damages arising from the use of this software.
+
+Permission is granted to anyone to use this software for any purpose, including commercial
+applications, and to alter it and redistribute it freely, subject to the following restrictions:
+
+1. The origin of this software must not be misrepresented; you must not claim that you wrote the
+   original software. If you use this software in a product, an acknowledgment in the product
+   documentation would be appreciated but is not required.
+
+2. Altered source versions must be plainly marked as such, and must not be misrepresented as
+   being the original software.
+
+3. This notice may not be removed or altered from any source distribution.
+
+--
+
+SUSignatureVerifier.m:
+
+Copyright (c) 2011 Mark Hamlin.
+
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted providing that the following conditions
+are met:
+1. Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright
+   notice, this list of conditions and the following disclaimer in the
+   documentation and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY
+DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+```
+<!-- END THIRD-PARTY LICENSES -->
+
+</details>

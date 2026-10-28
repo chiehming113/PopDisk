@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>method</key>
+	<string>developer-id</string>
+	<key>teamID</key>
+	<string>L36G2DM6YF</string>
+	<key>signingStyle</key>
+	<string>automatic</string>
+	<!-- upload：匯出時直接送 Apple 公證（使用 Xcode 已登入的帳號） -->
+	<key>destination</key>
+	<string>upload</string>
+</dict>
+</plist>

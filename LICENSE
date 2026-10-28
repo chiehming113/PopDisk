@@ -1,44 +1,21 @@
-PopDisk Terms of Use
+MIT License
 
-Copyright © 2026 MingTW. All rights reserved.
+Copyright (c) 2026 MingTW
 
-PopDisk is free to download and use, but it is not open source software.
-By installing or using PopDisk, you agree to these terms.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-1. What you may do
-   You may download PopDisk from its official page
-   (https://github.com/chiehming113/PopDisk) and use it on any number of
-   your own Macs, for personal or work purposes, free of charge.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-2. What you may not do
-   - Modify, decompile, disassemble, or otherwise reverse engineer PopDisk,
-     except where the law expressly allows it.
-   - Redistribute, share, re-upload, sell, rent, or bundle PopDisk with
-     other products. Please link to the official page instead.
-   - Remove or change any copyright notices.
-
-3. No warranty
-   PopDisk is provided "as is", without warranty of any kind, express or
-   implied, including fitness for a particular purpose. PopDisk ejects,
-   mounts, and force-ejects disks and can quit other apps at your request;
-   you are responsible for keeping backups of your data.
-
-4. Limitation of liability
-   To the maximum extent permitted by law, the author is not liable for any
-   loss of data, damage to disks or devices, lost profits, or any other
-   direct or indirect damages arising from the use of, or inability to use,
-   PopDisk.
-
-5. Changes
-   These terms may change, and future versions of PopDisk may be paid.
-   A version you already have may continue to be used under the terms that
-   came with it.
-
-6. Third-party software
-   PopDisk includes Sparkle (https://sparkle-project.org), which is licensed
-   under its own license (MIT). Its notices are shown in PopDisk under
-   Settings → About → Acknowledgements.
-
-7. Language
-   These terms are also available in Traditional Chinese (LICENSE.zh-Hant.md).
-   If the two versions differ, the Traditional Chinese version prevails.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

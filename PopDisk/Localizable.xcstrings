@@ -1,0 +1,1728 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "%@ free of %@" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "可用 %1$@，共 %2$@"
+          }
+        }
+      }
+    },
+    "%lld hidden — show in Settings…" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已隱藏 %lld 顆硬碟，到設定中查看…"
+          }
+        }
+      }
+    },
+    "%lld s" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld 秒"
+          }
+        }
+      }
+    },
+    "%lld%%" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld%%"
+          }
+        }
+      }
+    },
+    "Add" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新增"
+          }
+        }
+      }
+    },
+    "Add Network Drive" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新增網路硬碟"
+          }
+        }
+      }
+    },
+    "Add a Network Drive…" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新增網路硬碟…"
+          }
+        }
+      }
+    },
+    "Add to Saved Servers" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "加入常用網路硬碟"
+          }
+        }
+      }
+    },
+    "Address" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "位址"
+          }
+        }
+      }
+    },
+    "Allow PopDisk in System Settings to finish turning this on." : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "請到系統設定允許 PopDisk，才能完成開啟。"
+          }
+        }
+      }
+    },
+    "Already used by another PopDisk shortcut" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已被 PopDisk 的另一個快捷鍵使用"
+          }
+        }
+      }
+    },
+    "Already used by another app" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已被其他 App 使用"
+          }
+        }
+      }
+    },
+    "Apps using the disk may lose unsaved changes, and files being copied may be damaged." : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在使用這顆硬碟的 App 可能會遺失未儲存的變更，正在拷貝的檔案也可能損毀。"
+          }
+        }
+      }
+    },
+    "Cancel" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "取消"
+          }
+        }
+      }
+    },
+    "Capacity" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "容量"
+          }
+        }
+      }
+    },
+    "Choose Icon" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "選擇圖示"
+          }
+        }
+      }
+    },
+    "Clear Shortcut" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "清除快捷鍵"
+          }
+        }
+      }
+    },
+    "Card Reader" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "讀卡機"
+          }
+        }
+      }
+    },
+    "Click to open in Finder" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "按一下在 Finder 中開啟"
+          }
+        }
+      }
+    },
+    "Connect" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "連線"
+          }
+        }
+      }
+    },
+    "Connect when PopDisk starts" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PopDisk 啟動時自動連線"
+          }
+        }
+      }
+    },
+    "Connection" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "連接方式"
+          }
+        }
+      }
+    },
+    "Connection was cancelled." : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已取消連線。"
+          }
+        }
+      }
+    },
+    "Connects when PopDisk starts" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PopDisk 啟動時會自動連線"
+          }
+        }
+      }
+    },
+    "Copy Path" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "拷貝路徑"
+          }
+        }
+      }
+    },
+    "Couldn't connect (error %d)." : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "無法連線（錯誤 %d）。"
+          }
+        }
+      }
+    },
+    "Couldn't eject “%@”" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "無法退出「%@」"
+          }
+        }
+      }
+    },
+    "Couldn't reach the server. Check the address and your network connection." : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "連不到伺服器。請檢查位址和網路連線。"
+          }
+        }
+      }
+    },
+    "Default Icon" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "預設圖示"
+          }
+        }
+      }
+    },
+    "Delete" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "刪除"
+          }
+        }
+      }
+    },
+    "Device" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "裝置"
+          }
+        }
+      }
+    },
+    "Disconnect" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "中斷連線"
+          }
+        }
+      }
+    },
+    "Disk" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "磁碟"
+          }
+        }
+      }
+    },
+    "Download and upload speed of the whole network connection, including other apps" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "整個網路連線的下載與上傳速度（包含其他 App 的流量）"
+          }
+        }
+      }
+    },
+    "Drag to change the order in the menu. Pinned drives always appear first. Nicknames and icons only change how drives look in PopDisk." : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "拖曳可以調整在選單中的順序，釘選的硬碟永遠排在最前面。暱稱和圖示只會改變在 PopDisk 中的樣子，不會更改硬碟本身。"
+          }
+        }
+      }
+    },
+    "Drag to Reorder" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "拖曳以調整順序"
+          }
+        }
+      }
+    },
+    "Drive connected" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已接上硬碟"
+          }
+        }
+      }
+    },
+    "Drives" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "硬碟"
+          }
+        }
+      }
+    },
+    "Drives you connect will appear here." : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "接過的硬碟會出現在這裡。"
+          }
+        }
+      }
+    },
+    "Edit Network Drive" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "編輯網路硬碟"
+          }
+        }
+      }
+    },
+    "Edit…" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "編輯…"
+          }
+        }
+      }
+    },
+    "Eject" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "退出"
+          }
+        }
+      }
+    },
+    "Eject All" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "全部退出"
+          }
+        }
+      }
+    },
+    "Eject Selected" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "退出選取的硬碟"
+          }
+        }
+      }
+    },
+    "Eject all external drives" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "退出所有外接硬碟"
+          }
+        }
+      }
+    },
+    "Eject all external drives (⇧⌘E)" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "退出所有外接硬碟（⇧⌘E）"
+          }
+        }
+      }
+    },
+    "Eject external drives before the Mac sleeps" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mac 睡眠前自動退出外接硬碟"
+          }
+        }
+      }
+    },
+    "Eject notifications only appear when the menu is closed, for example after using a shortcut or before sleep." : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "退出的通知只會在選單關閉時出現，例如用快捷鍵退出或睡眠前自動退出時。"
+          }
+        }
+      }
+    },
+    "Ejecting before sleep prevents damage if you unplug a drive while the Mac is asleep. Disk images are left mounted." : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "睡眠前先退出，就算在 Mac 睡眠時拔掉硬碟也不會損壞資料。磁碟映像檔不會被退出。"
+          }
+        }
+      }
+    },
+    "End Process" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "結束"
+          }
+        }
+      }
+    },
+    "End the process, then try ejecting again" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "結束這個程式，然後再試一次退出"
+          }
+        }
+      }
+    },
+    "Enter a full address, for example smb://my-nas.local/Photos." : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "請輸入完整位址，例如 smb://my-nas.local/Photos。"
+          }
+        }
+      }
+    },
+    "Ethernet" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "乙太網路"
+          }
+        }
+      }
+    },
+    "Ethernet is connected at only 100 Mb/s or less. Check the cable or switch." : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "連線速度受限：乙太網路只連到 100 Mb/s 以下。請檢查網路線或交換器。"
+          }
+        }
+      }
+    },
+    "External Drives" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "外接硬碟"
+          }
+        }
+      }
+    },
+    "External drive" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "外接硬碟"
+          }
+        }
+      }
+    },
+    "License" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "授權條款"
+          }
+        }
+      }
+    },
+    "License on GitHub" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在 GitHub 上查看授權條款"
+          }
+        }
+      }
+    },
+    "PopDisk is open source under the MIT License." : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PopDisk 以 MIT 授權開放原始碼。"
+          }
+        }
+      }
+    },
+    "Saved Servers" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "常用網路硬碟"
+          }
+        }
+      }
+    },
+    "File System" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "檔案系統"
+          }
+        }
+      }
+    },
+    "Force Eject" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "強制退出"
+          }
+        }
+      }
+    },
+    "Force Eject…" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "強制退出…"
+          }
+        }
+      }
+    },
+    "Force eject “%@”?" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "要強制退出「%@」嗎？"
+          }
+        }
+      }
+    },
+    "Forget this drive's settings" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "清除這顆硬碟的設定"
+          }
+        }
+      }
+    },
+    "General" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一般"
+          }
+        }
+      }
+    },
+    "Hide Info" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "隱藏資訊"
+          }
+        }
+      }
+    },
+    "Hide from Menu" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "從選單中隱藏"
+          }
+        }
+      }
+    },
+    "In use by %@." : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在被 %@ 使用。"
+          }
+        }
+      }
+    },
+    "In use by:" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在使用的程式："
+          }
+        }
+      }
+    },
+    "Include ⌘, ⌥, or ⌃. Press esc to cancel." : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "需包含 ⌘、⌥ 或 ⌃。按 esc 取消。"
+          }
+        }
+      }
+    },
+    "Incorrect username or password." : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "使用者名稱或密碼不正確。"
+          }
+        }
+      }
+    },
+    "Keyboard Shortcuts" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "鍵盤快捷鍵"
+          }
+        }
+      }
+    },
+    "Location" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "位置"
+          }
+        }
+      }
+    },
+    "macOS doesn't allow PopDisk to do this with this disk. Remove and reinsert it, or use Disk Utility." : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS 不允許 PopDisk 對這顆硬碟執行這個動作。請把它拔出再重新插入，或改用「磁碟工具程式」。"
+          }
+        }
+      }
+    },
+    "Menu Bar" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "選單列"
+          }
+        }
+      }
+    },
+    "More" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更多"
+          }
+        }
+      }
+    },
+    "Mount" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "裝載"
+          }
+        }
+      }
+    },
+    "Name" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "名稱"
+          }
+        }
+      }
+    },
+    "Network Drives" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "網路硬碟"
+          }
+        }
+      }
+    },
+    "Network Interface" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "網路介面"
+          }
+        }
+      }
+    },
+    "Network drive" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "網路硬碟"
+          }
+        }
+      }
+    },
+    "Nickname" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "暱稱"
+          }
+        }
+      }
+    },
+    "No drives connected" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "沒有連接的硬碟"
+          }
+        }
+      }
+    },
+    "No saved servers yet. Add a server address such as smb://my-nas.local/Photos." : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "還沒有常用的網路硬碟。可以加入像 smb://my-nas.local/Photos 這樣的伺服器位址。"
+          }
+        }
+      }
+    },
+    "No network drives connected" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "沒有連線的網路硬碟"
+          }
+        }
+      }
+    },
+    "Not mounted" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "未裝載"
+          }
+        }
+      }
+    },
+    "Notifications" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "通知"
+          }
+        }
+      }
+    },
+    "Notifications are turned off for PopDisk." : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PopDisk 的通知目前已關閉。"
+          }
+        }
+      }
+    },
+    "Notify Me" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "通知我"
+          }
+        }
+      }
+    },
+    "Only %@ left (%lld%%)." : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "只剩 %1$@（%2$lld%%）。"
+          }
+        }
+      }
+    },
+    "Open PopDisk at login" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "登入時自動開啟 PopDisk"
+          }
+        }
+      }
+    },
+    "Open System Settings" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "打開系統設定"
+          }
+        }
+      }
+    },
+    "Open in Finder" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在 Finder 中開啟"
+          }
+        }
+      }
+    },
+    "Open in Terminal" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在終端機中開啟"
+          }
+        }
+      }
+    },
+    "Open the PopDisk menu" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "打開 PopDisk 選單"
+          }
+        }
+      }
+    },
+    "Optional" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "選填"
+          }
+        }
+      }
+    },
+    "Password" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "密碼"
+          }
+        }
+      }
+    },
+    "Passwords are stored securely in your login keychain." : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "密碼會安全地存放在你的登入鑰匙圈中。"
+          }
+        }
+      }
+    },
+    "Pin to Top" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "釘選在最上方"
+          }
+        }
+      }
+    },
+    "PopDisk" : {
+      "shouldTranslate" : false
+    },
+    "PopDisk, %lld drives" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PopDisk，%lld 顆硬碟"
+          }
+        }
+      }
+    },
+    "Press shortcut…" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "請按下快捷鍵…"
+          }
+        }
+      }
+    },
+    "Protocol" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "協定"
+          }
+        }
+      }
+    },
+    "Quit" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "結束"
+          }
+        }
+      }
+    },
+    "Quit PopDisk" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quit"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "結束 PopDisk"
+          }
+        }
+      }
+    },
+    "Quit the app, then try ejecting again" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "結束這個 App，然後再試一次退出"
+          }
+        }
+      }
+    },
+    "Read and write speed" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "讀取與寫入速度"
+          }
+        }
+      }
+    },
+    "Reconnect automatically after sleep or network interruptions" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mac 喚醒或網路恢復後自動重新連線"
+          }
+        }
+      }
+    },
+    "Record Shortcut" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "錄製快捷鍵"
+          }
+        }
+      }
+    },
+    "Rename “%@” in PopDisk" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在 PopDisk 中為「%@」取暱稱"
+          }
+        }
+      }
+    },
+    "Rename…" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "取暱稱…"
+          }
+        }
+      }
+    },
+    "Save" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "儲存"
+          }
+        }
+      }
+    },
+    "Saved in keychain" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已存入鑰匙圈"
+          }
+        }
+      }
+    },
+    "Serial Number" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "序號"
+          }
+        }
+      }
+    },
+    "Server" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "伺服器"
+          }
+        }
+      }
+    },
+    "Settings…" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "設定…"
+          }
+        }
+      }
+    },
+    "Show in Finder" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在 Finder 中顯示"
+          }
+        }
+      }
+    },
+    "Show Info" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "顯示資訊"
+          }
+        }
+      }
+    },
+    "Show an arrow while external drives are transferring" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "外接硬碟傳輸時顯示箭頭"
+          }
+        }
+      }
+    },
+    "Show in Menu" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在選單中顯示"
+          }
+        }
+      }
+    },
+    "Show number of drives" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "顯示硬碟數量"
+          }
+        }
+      }
+    },
+    "Show transfer speed while external drives are transferring" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "外接硬碟傳輸時顯示傳輸速度"
+          }
+        }
+      }
+    },
+    "Some drives weren't ejected before sleep" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "睡眠前有硬碟沒有退出"
+          }
+        }
+      }
+    },
+    "Speeds are measured only while the menu is open or the menu bar shows activity, to save battery." : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "為了省電，只有在選單打開、或選單列需要顯示傳輸狀態時才會量測速度。"
+          }
+        }
+      }
+    },
+    "Supported: smb://, nfs://, and http(s):// (WebDAV). If no password is saved, macOS will ask when connecting." : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "支援 smb://、nfs:// 和 http(s)://（WebDAV）。沒有儲存密碼時，連線時 macOS 會詢問。"
+          }
+        }
+      }
+    },
+    "The disk is in use, but the app using it couldn't be identified." : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "硬碟正在使用中，但找不到是哪個程式在使用（可能是系統程式）。"
+          }
+        }
+      }
+    },
+    "The disk is in use. Close any apps using it and try again." : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "硬碟正在使用中。請關閉正在使用它的 App 後再試一次。"
+          }
+        }
+      }
+    },
+    "The nickname is only shown in PopDisk. The drive itself is not renamed. Leave empty to use the original name." : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "暱稱只會顯示在 PopDisk 中，不會更改硬碟本身的名稱。留空則使用原本的名稱。"
+          }
+        }
+      }
+    },
+    "The operation couldn't be completed (error %@)." : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "無法完成操作（錯誤 %@）。"
+          }
+        }
+      }
+    },
+    "The operation couldn't be completed." : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "無法完成操作。"
+          }
+        }
+      }
+    },
+    "The shared folder doesn't exist on the server." : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "伺服器上找不到這個共享資料夾。"
+          }
+        }
+      }
+    },
+    "These shortcuts work even when another app is in front." : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "就算其他 App 在前景，這些快捷鍵也能使用。"
+          }
+        }
+      }
+    },
+    "This Mac" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "這台 Mac"
+          }
+        }
+      }
+    },
+    "This drive supports USB 3 but is connected at USB 2 speed. Try a different port, hub, or cable." : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "連線速度受限：這顆硬碟支援 USB 3，但目前只以 USB 2 的速度連線。請換一個插孔、Hub 或線材試試。"
+          }
+        }
+      }
+    },
+    "Transfer Speed" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "傳輸速度"
+          }
+        }
+      }
+    },
+    "Try Again" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "再試一次"
+          }
+        }
+      }
+    },
+    "UUID" : {
+      "shouldTranslate" : false
+    },
+    "Unpin" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "取消釘選"
+          }
+        }
+      }
+    },
+    "Update speed every" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "速度更新間隔"
+          }
+        }
+      }
+    },
+    "Username" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "使用者名稱"
+          }
+        }
+      }
+    },
+    "Using Wi‑Fi even though a wired network is available." : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "建議改用有線網路：目前透過 Wi‑Fi 連線，但有線網路也可以用。"
+          }
+        }
+      }
+    },
+    "Volume" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "卷宗"
+          }
+        }
+      }
+    },
+    "Warn when free space is below" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "剩餘空間低於以下比例時提醒"
+          }
+        }
+      }
+    },
+    "When a drive is almost full" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "硬碟快滿時"
+          }
+        }
+      }
+    },
+    "When a drive is connected" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "接上硬碟時"
+          }
+        }
+      }
+    },
+    "When a drive is ejected or can't be ejected" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "退出硬碟或無法退出時"
+          }
+        }
+      }
+    },
+    "You can now unplug the drive." : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "現在可以拔下硬碟了。"
+          }
+        }
+      }
+    },
+    "in %@" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在%@中"
+          }
+        }
+      }
+    },
+    "transferring" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "傳輸中"
+          }
+        }
+      }
+    },
+    "“%@” can be safely removed." : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%@」可以安全拔除了。"
+          }
+        }
+      }
+    },
+    "“%@” is almost full" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%@」快滿了"
+          }
+        }
+      }
+    },
+    "↑↓ select · ↩ open · ⌘E eject" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "↑↓ 選取 · ↩ 開啟 · ⌘E 退出"
+          }
+        }
+      }
+    },
+    "About" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "關於"
+          }
+        }
+      }
+    },
+    "Acknowledgements" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "開源軟體致謝"
+          }
+        }
+      }
+    },
+    "Check for updates automatically" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自動檢查更新"
+          }
+        }
+      }
+    },
+    "Check for Updates…" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "檢查更新…"
+          }
+        }
+      }
+    },
+    "Copied" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已拷貝"
+          }
+        }
+      }
+    },
+    "Copy System Info" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "拷貝系統資訊"
+          }
+        }
+      }
+    },
+    "Eject and mount drives from the menu bar." : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "從選單列快速退出與裝載硬碟。"
+          }
+        }
+      }
+    },
+    "Install…" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "安裝…"
+          }
+        }
+      }
+    },
+    "Open the PopDisk menu to install it." : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "打開 PopDisk 選單就能安裝。"
+          }
+        }
+      }
+    },
+    "PopDisk %@ is available" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PopDisk %@ 已推出"
+          }
+        }
+      }
+    },
+    "PopDisk checks GitHub once a day and asks before installing. You can also check in About." : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PopDisk 每天會到 GitHub 檢查一次，安裝前會先問你。也可以在「關於」手動檢查。"
+          }
+        }
+      }
+    },
+    "PopDisk uses Sparkle for in-app updates." : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PopDisk 使用 Sparkle 提供 App 內更新。"
+          }
+        }
+      }
+    },
+    "Privacy" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "隱私權"
+          }
+        }
+      }
+    },
+    "Report a Problem" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "回報問題"
+          }
+        }
+      }
+    },
+    "Updates" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更新"
+          }
+        }
+      }
+    },
+    "This translation is for reference only. The English license below is the official version." : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "以上是參考譯文，不具法律效力；正式授權條款是下方的英文版本。"
+          }
+        }
+      }
+    },
+    "Version" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "版本"
+          }
+        }
+      }
+    },
+    "Website" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "網站"
+          }
+        }
+      }
+    },
+    "What's New" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新版說明"
+          }
+        }
+      }
+    },
+    "When reporting a problem, paste the system info so it's easier to find the cause." : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "回報問題時貼上系統資訊，比較容易找出原因。"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
