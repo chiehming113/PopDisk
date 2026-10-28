@@ -4,6 +4,17 @@
     <title>PopDisk</title>
     <link>https://github.com/chiehming113/PopDisk</link>
     <item>
+      <title>PopDisk 0.1.1</title>
+      <pubDate>Wed, 28 Oct 2026 13:24:43 GMT</pubDate>
+      <sparkle:version>2</sparkle:version>
+      <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown"><![CDATA[### 改進
+- PopDisk 改為開放原始碼（MIT 授權），原始碼放在 GitHub，每次發佈新版本時一起更新
+- 「設定 → 關於」新增「授權條款」，可以看到完整的授權全文（中文介面附繁體中文參考譯文）；「授權條款」與「開源軟體致謝」點整列就能展開；原本的「使用條款」連結改成「在 GitHub 上查看授權條款」]]></description>
+      <enclosure url="https://github.com/chiehming113/PopDisk/releases/download/v0.1.1/PopDisk-0.1.1.zip" type="application/octet-stream" sparkle:edSignature="XEWNdNBj4+QGrARcbVgS4iMWk+w1JuxRNk1TgRkU2KlF9cWRZlkskbhEw4nHkZtvd/D4HWs2pSa9v/qkQc7KAQ==" length="3055312"/>
+    </item>
+    <item>
       <title>PopDisk 0.1.0</title>
       <pubDate>Tue, 27 Oct 2026 13:29:31 GMT</pubDate>
       <sparkle:version>1</sparkle:version>
